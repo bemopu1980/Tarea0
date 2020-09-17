@@ -10,7 +10,7 @@
 			}
 		} 
     
-		require_once('conexion.php');
+		require_once('desconexion.php');
 
 		$detalle = "SELECT worker.NAME,worker.PICTURE,worker.EMAIL,worker.PHONE,worker.SALARY,worker.ABOUT,worker.ID,country.COUNTRY
 		FROM worker JOIN COUNTRY 
